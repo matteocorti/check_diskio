@@ -7,7 +7,7 @@
 ################################################################################
 
 %define version          3.2.8
-%define release          0
+%define release          1
 %define sourcename       check_diskio
 %define packagename      nagios-plugins-check-diskio
 %define nagiospluginsdir %{_libdir}/nagios/plugins
@@ -40,6 +40,7 @@ BuildRequires: perl(Carp)
 BuildRequires: perl(Array::Unique)
 
 Requires:  nagios-plugins
+Requires:  perl(Array::Unique)
 
 %description
 Nagios plugin to monitor the amount of disk I/O
@@ -74,6 +75,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{sourcename}.1*
 
 %changelog
+* Fri Jun 26 2020 Matteo Corti <matteo.corti@id.ethz.ch> - 3.2.8-1
+- Added dependency to Array::Unique
+
 * Tue Jun  2 2015 Matteo Corti <matteo.corti@id.ethz.ch> - 3.2.8-0
 - Updated to 3.2.8
 

@@ -1,13 +1,5 @@
-################################################################################
-# File version information:
-# $Id$
-# $Revision$
-# $HeadURL$
-# $Date$
-################################################################################
-
 %define version          3.2.8
-%define release          3
+%define release          4
 %define sourcename       check_diskio
 %define packagename      nagios-plugins-check-diskio
 %define nagiospluginsdir %{_libdir}/nagios/plugins

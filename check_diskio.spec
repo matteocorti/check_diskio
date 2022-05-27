@@ -100,7 +100,7 @@ rm -rf %{buildroot}
 - Updated to 3.2.1 (UNKNOWN if not able to check LVM)
 
 * Tue May 25 2010 Matteo Corti <matteo.corti@id.ethz.ch> - 3.2.0-0
-- updated to 3.2.0 (partion numbers are stripped only if the
+- updated to 3.2.0 (partition numbers are stripped only if the
   --strip-partition-number option is specified)
 
 * Sun Apr 18 2010 Matteo Corti <matteo.corti@id.ethz.ch> - 3.1.1-0

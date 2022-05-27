@@ -160,7 +160,7 @@ sub verbose {
 ##############################################################################
 # Usage     : @output = exec_command( $command );
 # Purpose   : executes the command and returns the output
-# Returns   : array with the standard ouput
+# Returns   : array with the standard output
 # Arguments : $command : the command to execute
 # Throws    : n/a
 # Comments  : n/a
@@ -523,7 +523,7 @@ sub read_24 {
 
 ##############################################################################
 # Usage     : whoami()
-# Purpose   : retrieve the user runnging the process
+# Purpose   : retrieve the user running the process
 # Returns   : username
 # Arguments : n/a
 # Throws    : n/a
@@ -890,7 +890,7 @@ EOT
                                 }
                                 else {
 
-                                    # strip everything but the device name fro
+                                    # strip everything but the device name from
                                     # the output
                                     for (@pvs) {
 s{.*\s+/dev/([[:lower:]]+).*}{/dev/$1}mxs;
@@ -981,7 +981,7 @@ s{.*\s+/dev/([[:lower:]]+).*}{/dev/$1}mxs;
     }
     else {
         $plugin->nagios_exit( $plugin->UNKNOWN,
-            "Uknown unit of measurement: $format" );
+            "Unknown unit of measurement: $format" );
     }
 
     my $unit = $KIBI;
@@ -1012,7 +1012,7 @@ s{.*\s+/dev/([[:lower:]]+).*}{/dev/$1}mxs;
         }
         else {
             $plugin->nagios_exit( $plugin->UNKNOWN,
-                "Uknown unit of threshold: $format" );
+                "Unknown unit of threshold: $format" );
         }
     }
     ## use critic (ControlStructures::ProhibitCascadingIfElse)

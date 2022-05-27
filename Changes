@@ -44,7 +44,7 @@
 
 2010-05-25  Matteo Corti  <matteo.corti@id.ethz.ch>
 
-	* check_diskio: partion numbers are stripped
+	* check_diskio: partition numbers are stripped
 	                only if the --strip-partition-number option is specified
 
 2010-05-17  Matteo Corti  <matteo.corti@id.ethz.ch>
@@ -137,14 +137,8 @@ units from factor
 
 2007-02-23  Matteo Corti  <matteo.corti@id.ethz.ch>
 
-	* 1.1: removed the max inteval check
+	* 1.1: removed the max interval check
 
 2007-02-19  Matteo Corti  <matteo.corti@id.ethz.ch>
 
 	* Initial release
-
-
-# $Id$
-# $Revision$
-# $HeadURL$
-# $Date$

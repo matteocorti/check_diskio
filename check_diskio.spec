@@ -10,7 +10,7 @@
 Summary:   Nagios plugin to monitor the amount of disk I/O
 Name:      %{packagename}
 Version:   %{version}
-Obsoletes: check_diskio
+Obsoletes: check_diskio <= 100
 Release:   %{release}%{?dist}
 License:   GPLv3+
 Packager:  Matteo Corti <matteo@corti.li>

@@ -19,12 +19,12 @@ jobs:
         distro:
           - 'centos:7'
           - 'fedora:39'
-          - 'fedora:38'
+          - 'fedora:40'
         include:
           - distro: 'fedora:39'
             pre: >-
               dnf install -y sudo perl-Module-Install perl-Monitoring-Plugin perl-Perl-Critic rpm-build openssh-clients perl-Array-Unique perl-File-Slurp perl-Number-Format
-          - distro: 'fedora:38'
+          - distro: 'fedora:40'
             pre: >-
               dnf install -y sudo perl-Module-Install perl-Monitoring-Plugin perl-Perl-Critic rpm-build openssh-clients perl-Array-Unique perl-File-Slurp perl-Number-Format
           - distro: 'centos:7'
